@@ -61,7 +61,7 @@
 | paid_at            | timestamp                | 支付时间                      |
 | created_at         | timestamp                | 创建时间                      |
 | updated_at         | timestamp                | 更新时间                      |
-| plan               | [关联表](/plan.md/#1订阅商店列表) | 订阅详情                      |
+| plan               | [关联表](/user/plan.md/#1订阅商店列表) | 订阅详情                      |
 
 ## 2.支付方式
 
@@ -160,7 +160,7 @@
 | paid_at            | timestamp                | 支付时间                      |
 | created_at         | timestamp                | 创建时间                      |
 | updated_at         | timestamp                | 更新时间                      |
-| plan               | [关联表](/plan.md/#1订阅商店列表) | 订阅详情                      |
+| plan               | [关联表](/user/plan.md/#1订阅商店列表) | 订阅详情                      |
 | try_out_plan_id    | number                   | 试用计划 ID                   |
 
 ## 4.订单状态
