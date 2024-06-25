@@ -57,3 +57,16 @@
 | /user/notice/fetch | GET  | [公告信息](/user/notice.md/#1公告信息) |
 
 
+# v2board-admin 部分 api 整理
+
+### passport
+
+| URL                            | 请求 | 描述                                            |
+| ------------------------------ | ---- | ----------------------------------------------- |
+| /passport/auth/login           | POST | [登入账号](/user/passport.md/#3登入账号)             |
+
+### User
+
+| URL                            | 请求 | 描述                          |
+| ------------------------------ | ---- |-----------------------------|
+| /passport/auth/login           | POST | [登出](/admin/user.md/#1登入账号) |
