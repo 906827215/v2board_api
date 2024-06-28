@@ -70,3 +70,4 @@
 | telegram_id        | number                 | 绑定TG id |
 | uuid               | string                 | 唯一UUID  |
 | avatar_url         | string                 | 头像地址    |
+
