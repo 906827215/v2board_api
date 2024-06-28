@@ -266,5 +266,3 @@ windows_version=1.0.1 即可
   "error": null
 }
 ```
-
-- 成功返回示例 `json`
