@@ -78,3 +78,13 @@
 |---------------| ---- |---------------------------------|
 | /config/fetch | POST | [系统配置](/admin/config.md/#1系统配置) |
 | /config/save  | POST | [配置保存](/admin/config.md/#2配置保存)   |
+
+### Payment
+
+| URL           | 请求 | 描述                                            |
+|---------------| ---- |-----------------------------------------------|
+| /payment/fetch | GET | [获取支付配置列表](/admin/payment.md/#1支付配置列表)        |
+| /payment/getPaymentMethods | GET | [获取配置支付方式](/admin/payment.md/#2获取支付方式)        |
+| /payment/getPaymentForm | GET | [获取配置方式form](/admin/payment.md/#3获取支付类form配置) |
+| /payment/save  | POST | [支付配置新增和编辑](/admin/payment.md/#4支付方式新增和修改)    |
+| /payment/drop  | POST | [支付配置删除](/admin/payment.md/#5支付方式删除)          |
