@@ -98,3 +98,14 @@
 | /config/save | POST | [激活主题](/admin/theme.md/#2激活主题)           |
 | /theme/getThemeConfig | GET | [获取主题配置](/admin/theme.md/#3获取主题配置) |
 | /theme/saveThemeConfig  | POST | [主题配置保存](/admin/theme.md/#4主题配置保存)   |
+
+
+### plan订阅管理
+
+| URL           | 请求 | 描述                                        |
+|---------------| ---- |-------------------------------------------|
+| /plan/fetch | GET | [获取订阅列表](/admin/plan.md/#1获取订阅列表)         |
+| /plan/save | POST | [添加订阅](/admin/plan.md/#2添加订阅)             |
+| /plan/save | POST | [全量修改save](/admin/plan.md/#3修改订阅save全量版本) |
+| /plan/update  | POST | [修改销售状态和是否可续费](/admin/plan.md/#4修改订阅)     |
+| /plan/drop  | POST | [删除订阅](/admin/plan.md/#5删除订阅)             |
