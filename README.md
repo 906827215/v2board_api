@@ -88,3 +88,13 @@
 | /payment/getPaymentForm | GET | [获取配置方式form](/admin/payment.md/#3获取支付类form配置) |
 | /payment/save  | POST | [支付配置新增和编辑](/admin/payment.md/#4支付方式新增和修改)    |
 | /payment/drop  | POST | [支付配置删除](/admin/payment.md/#5支付方式删除)          |
+
+
+### Theme
+
+| URL           | 请求 | 描述                                           |
+|---------------| ---- |----------------------------------------------|
+| /theme/getThemes | GET | [获取Themes](/admin/theme.md/#1获取Themes)       |
+| /config/save | POST | [激活主题](/admin/theme.md/#2激活主题)           |
+| /theme/getThemeConfig | GET | [获取主题配置](/admin/theme.md/#3获取主题配置) |
+| /theme/saveThemeConfig  | POST | [主题配置保存](/admin/theme.md/#4主题配置保存)   |
