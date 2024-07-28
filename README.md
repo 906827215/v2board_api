@@ -59,6 +59,15 @@
 
 # v2board-admin 部分 api 整理
 
+### 仪表盘
+
+| URL           | 请求 | 描述                                           |
+|---------------| ---- |----------------------------------------------|
+| /stat/getOverride | GET | [仪表盘主数据](/admin/state.md/#1仪表盘主数据)           |
+| /stat/getOrder | GET | [仪表盘订单统计](/admin/state.md/#2仪表盘订单统计)         |
+| /stat/getServerLastRank | GET | [仪表盘获取今日流量排行](/admin/state.md/#3仪表盘获取今日流量排行) |
+| /stat/getServerYesterdayRank | GET | [仪表盘获取昨日节点流量排行](/admin/state.md/#4仪表盘获取昨日节点流量排行)          |
+
 ### passport
 
 | URL                            | 请求 | 描述                                |
@@ -118,3 +127,5 @@
 |---------------| ---- |-------------------------------------|
 | /system/getSystemStatus | GET | [获取队列状态](/admin/system.md/#1队列监控获取队列状态) |
 | /system/getQueueWorkload | GET | [获取队列工作量](/admin/system.md/#2队列监控获取队列工作量)    |
+
+
