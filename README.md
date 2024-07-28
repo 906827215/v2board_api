@@ -109,3 +109,12 @@
 | /plan/save | POST | [全量修改save](/admin/plan.md/#3修改订阅save全量版本) |
 | /plan/update  | POST | [修改销售状态和是否可续费](/admin/plan.md/#4修改订阅)     |
 | /plan/drop  | POST | [删除订阅](/admin/plan.md/#5删除订阅)             |
+
+
+
+### 队列监控
+
+| URL           | 请求 | 描述                                  |
+|---------------| ---- |-------------------------------------|
+| /system/getSystemStatus | GET | [获取队列状态](/admin/system.md/#1队列监控获取队列状态) |
+| /system/getQueueWorkload | GET | [获取队列工作量](/admin/system.md/#2队列监控获取队列工作量)    |
