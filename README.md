@@ -57,10 +57,19 @@
 | /user/notice/fetch | GET  | [公告信息](/user/notice.md/#1公告信息) |
 
 
+### Notice
+
+| URL                    | 请求 | 描述                             |
+|------------------------| ---- |--------------------------------|
+| /user/ticket/fetch     | GET  | [公告信息](/user/ticket.md/#1工单列表) |
+| /user/ticket/fetch?id=1 | GET  | [公告信息](/user/ticket.md/#2工单详情) |
+| /user/ticket/save      | GET  | [公告信息](/user/ticket.md/#3新的工单) |
+
+
 # v2board-admin 部分 api 整理
 
 ### 仪表盘
-
+[ticket.md](admin%2Fticket.md)
 | URL           | 请求 | 描述                                           |
 |---------------| ---- |----------------------------------------------|
 | /stat/getOverride | GET | [仪表盘主数据](/admin/state.md/#1仪表盘主数据)           |
