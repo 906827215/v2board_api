@@ -59,11 +59,11 @@
 
 ### Ticket
 
-| URL                    | 请求 | 描述                             |
-|------------------------| ---- |--------------------------------|
-| /user/ticket/fetch     | GET  | [公告信息](/user/ticket.md/#1工单列表) |
-| /user/ticket/fetch?id=1 | GET  | [公告信息](/user/ticket.md/#2工单详情) |
-| /user/ticket/save      | GET  | [公告信息](/user/ticket.md/#3新的工单) |
+| URL                    | 请求   | 描述                             |
+|------------------------|------|--------------------------------|
+| /user/ticket/fetch     | GET  | [工单列表](/user/ticket.md/#1工单列表) |
+| /user/ticket/fetch?id=1 | GET  | [工单详情](/user/ticket.md/#2工单详情) |
+| /user/ticket/save      | POST | [新的工单](/user/ticket.md/#3新的工单) |
 
 
 # v2board-admin 部分 api 整理
