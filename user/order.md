@@ -275,4 +275,70 @@
 |------|---------|--------|
 | data | boolean | 是否关闭成功 |
 
+## 8.优惠码兑换
 
+> `POST` /user/coupon/check
+
+- 请求参数 `json`
+
+```json
+{
+  "code":"3fan666",
+  "plan_id":"1"
+}
+```
+
+| 参数名      | 类型     | 描述     |
+|----------|--------|--------|
+| code | string | 优惠码    |
+| plan_id | string | 订阅套餐id |
+
+- 成功返回示例 `json`
+
+```json
+{
+  "status": "success",
+  "message": "操作成功",
+  "data": {
+    "id": 1,
+    "code": "3fan666",
+    "name": "年费优惠券3fan666",
+    "type": 2,
+    "value": 30,
+    "show": 1,
+    "limit_use": null,
+    "limit_use_with_user": null,
+    "limit_plan_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "6"
+    ],
+    "limit_period": [
+      "three_year_price",
+      "two_year_price",
+      "year_price"
+    ],
+    "started_at": 1717667366,
+    "ended_at": 1917510566,
+    "created_at": 1717667429,
+    "updated_at": 1729338729
+  },
+  "error": null
+}
+```
+
+| 参数名  | 类型      | 描述          |
+|------|---------|-------------|
+| id | int     | 优惠码id       |
+| code | string  | 优惠码         |
+| name | string  | 优惠码名称       |
+| type | int     | 1 金额 2比例    |
+| value | int     | 优惠数值        |
+| limit_use | int     | 最大使用次数      |
+| limit_use_with_user | int | 用户最大使用次数    |
+| limit_plan_ids | string | 可使用订阅id ,分隔 |
+| limit_period | string | 可使用时间间隔     |

@@ -32,15 +32,16 @@
 
 ### Order
 
-| URL                           | 请求 | 描述                             |
-| ----------------------------- | ---- | -------------------------------- |
-| /user/order/fetch             | GET  | [订单列表](/user/order.md/#1订单列表) |
-| /user/order/getPaymentMethod  | GET  | [支付方式](/user/order.md/#2支付方式) |
-| /user/order/details?trade_no= | GET  | [订单详情](/user/order.md/#3订单详情) |
-| /user/order/check?trade_no=   | GET  | [订单状态](/user/order.md/#4订单状态) |
-| /user/order/save              | POST | [创建订单](/user/order.md/#5创建订单) |
-| /user/order/checkout          | POST | [结算订单](/user/order.md/#6结算订单) |
-| /user/order/cancel            | POST | [关闭订单](/user/order.md/#7关闭订单) |
+| URL                           | 请求 | 描述                              |
+| ----------------------------- | ---- |---------------------------------|
+| /user/order/fetch             | GET  | [订单列表](/user/order.md/#1订单列表)   |
+| /user/order/getPaymentMethod  | GET  | [支付方式](/user/order.md/#2支付方式)   |
+| /user/order/details?trade_no= | GET  | [订单详情](/user/order.md/#3订单详情)   |
+| /user/order/check?trade_no=   | GET  | [订单状态](/user/order.md/#4订单状态)   |
+| /user/order/save              | POST | [创建订单](/user/order.md/#5创建订单)   |
+| /user/order/checkout          | POST | [结算订单](/user/order.md/#6结算订单)   |
+| /user/order/cancel            | POST | [关闭订单](/user/order.md/#7关闭订单)   |
+| /user/coupon/check            | POST | [优惠码兑换](/user/order.md/#8优惠码兑换) |
 
 ### Invite
 
