@@ -338,8 +338,8 @@
 | name | string  | 优惠码名称       |
 | type | int     | 1 金额 2比例    |
 | value | int     | 优惠数值        |
-| limit_use | int     | 最大使用次数      |
-| limit_use_with_user | int | 用户最大使用次数    |
+| limit_use | int     | 限制使用次数      |
+| limit_use_with_user | int | 限制使用用户      |
 | limit_plan_ids | string | 可使用订阅id ,分隔 |
 | limit_period | string | 可使用时间间隔     |
 
