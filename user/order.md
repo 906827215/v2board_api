@@ -342,3 +342,13 @@
 | limit_use_with_user | int | 用户最大使用次数    |
 | limit_plan_ids | string | 可使用订阅id ,分隔 |
 | limit_period | string | 可使用时间间隔     |
+
+- 失败返回示例 `json`
+```json
+{
+  "status": "fail",
+  "message": "优惠券无效",
+  "data": null,
+  "error": null
+}
+```
